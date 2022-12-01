@@ -5,6 +5,7 @@
 .topnav {
   overflow: hidden;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .topnav a {
@@ -91,7 +92,7 @@
     display: flex;    
     justify-content: left;
     align-items: center;
-    color:white
+    color:white;
   }
   
 .box1 {
