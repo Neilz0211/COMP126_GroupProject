@@ -19,7 +19,7 @@
 }
 
 .topnav a:hover {
-  background-color: pink;
+  background-color: #2196F3;
   color: black;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .topnav .search-container button:hover {
-  background: pink;
+  background: #2196F3;
 }
 
 .grid-column-layout {
