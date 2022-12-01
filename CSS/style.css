@@ -45,15 +45,13 @@
     padding-left: 1%;
     font-size: 12px;
     grid-row: 3/4;
-    grid-column: 1/2;
-    display: flex;    
+    grid-column: 1/2;   
   }
 
 .box2 {
     padding-left: 1%;
     grid-row: 4/5;
     grid-column: 1/2;
-    display: flex;  
     justify-content: left;  
   
   }
@@ -75,7 +73,7 @@ footer {
   justify-content: left;
         padding-left: 1%;}
 
-h1{font-family: 'Donegal One';
+h1{font-family:   "Times New Roman", Times, serif;
   font-size: 30px;}
 
 
@@ -83,7 +81,8 @@ h1{font-family: 'Donegal One';
 h2{font-family: 'Bad Script';
   font-style: italic;
 }
-p3{ font-family: "Times New Roman", Times;
+p3{  font-family: "Times New Roman", Times, serif;;
   font-style: normal;
-  font-size: 22px;}
+  font-size: 22px;
+ padding-left: 2%;}
 
