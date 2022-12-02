@@ -99,7 +99,6 @@ header {
   padding: 10px;
   padding-top: 0%;
   padding-left: 1%;
-  font-size: 12px;
   grid-row: 3/4;
   grid-column: 1/2;   
 }
@@ -136,10 +135,12 @@ font-size: 30px}
 
 
 
-h2{font-family: 'Bad Script';
-font-style: italic;
+h2{font-family: 'Roboto', sans-serif;
+  font-family: 'Silkscreen', cursive;
+  color:black;
 }
-p3{ font-family:"Times New Roman", Times; font-size: 22px; font-style: normal; font-variant: normal;font-weight: lighter; }
+
+.p3{ font-family:"Times New Roman", Times; font-size: 22px; font-style: normal; font-variant: normal;font-weight: lighter; }
 
 
 @media only screen and (min-width: 600px) {
@@ -188,7 +189,6 @@ p3{ font-family:"Times New Roman", Times; font-size: 22px; font-style: normal; f
 .box1 {
     padding-top: 0%;
     padding-left: 1%;
-    font-size: 12px;
     grid-row: 3/4;
     grid-column: 1/2;   
   }
