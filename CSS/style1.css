@@ -28,7 +28,7 @@
 }
 
 .topnav .search-container {
-  float: right;
+  float: left;
 }
 
 .topnav input[type=text] {
@@ -137,7 +137,11 @@ p3{ font-family:"Times New Roman", Times; font-size: 22px; font-style: normal; f
 
 
 @media only screen and (min-width: 600px) {
-.grid-column-layout {
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .grid-column-layout {
   display: grid;
   grid-template-columns: 1.5fr 0.1fr 1fr;
   grid-template-rows: 0.8fr 1fr 2fr 1.5fr 1.5fr;
