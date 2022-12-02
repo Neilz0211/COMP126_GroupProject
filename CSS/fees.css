@@ -98,6 +98,7 @@ footer {
   background-color: #1D5589;
   font-size: 30px;
   grid-row: 5/6; 
+  display: flex;
   justify-content: center;
   align-items: center;
   color: white;
@@ -163,8 +164,7 @@ footer {
     background-color: #1D5589;
     font-size: 30px;
     grid-row: 4/5;
-    grid-column: 1/4;
-    display: flex;    
+    grid-column: 1/4;   
     justify-content: center;
     align-items: center;
     color: white;
