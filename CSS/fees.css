@@ -56,8 +56,9 @@
 
 .grid-column-layout {
   display: grid;
-  grid-template-rows: 2fr 0.5fr 2.5fr 3fr 1fr;
+  grid-template-rows: 2fr 2fr 3fr 4fr 1fr;
   grid-gap: 20px;
+  height:100vh;
 }
 
 header {
@@ -81,9 +82,7 @@ header {
   padding-top: 0%;
   padding-left: 1%;
   font-size: 12px;
-  grid-row: 3/4;  
-
-
+  grid-row: 3/4; 
   background-size: cover;
 }
 
