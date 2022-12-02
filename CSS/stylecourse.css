@@ -121,7 +121,7 @@ color: white;
 }
 
 .topnav .search-container {
-float: right;
+float: left;
 }
 
 .topnav input[type=text] {
@@ -166,12 +166,16 @@ h3{
 
 @media only screen and (min-width: 600px) {
 
-.grid-column-layout {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr 1fr 7fr 1.5fr;
-  height: 100vh;
-  grid-gap: 20px;
+  .topnav .search-container {
+    float: right;
+    }
+
+  .grid-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 7fr 1.5fr;
+    height: 100vh;
+    grid-gap: 20px;
 }
 
 
