@@ -57,8 +57,8 @@
 
 .grid-column-layout {
   display: grid;
-  grid-template-rows: 2fr 2fr 3fr 4fr 1fr;
-  grid-gap: 20px;
+  grid-template-rows: 2fr 1fr 6fr 1fr 1fr;
+  grid-gap: 10px;
   height: 100vh;
 }
 
@@ -76,22 +76,21 @@ header {
   grid-row: 2/3;
   display: flex;    
   justify-content: left;
-  align-items: center;
 }
 
+
 .box1 {
-  background-image:url("../img/books.png") ;
-  padding-top: 0%;
-  padding-left: 1%;
-  font-size: 12px;
-  grid-row: 3/4; 
+ background-image: url(../img/books.png);
+  grid-row: 3/4;
+  grid-column: 1/2;   
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
+
 .box2 {
-  padding-left: 1%;
+  margin-left: 20px;
   grid-row: 4/5;
-  justify-content: left;  
 
 }
 
