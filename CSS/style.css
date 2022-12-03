@@ -178,26 +178,33 @@ h2{font-family: 'Roboto', sans-serif;
   .hire {
     background-color: #D2F2FF;
     font-size: 30px;
-    grid-row:2/5;
+    grid-row:3/5;
     grid-column: 2/3;
     display: flex;    
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     color:white;
+    margin-bottom: 10px;
   }
   
 .box1 {
+  background-color: #dbe7f4bb;
     padding-top: 0%;
     padding-left: 1%;
     grid-row: 3/4;
-    grid-column: 1/2;   
+    grid-column: 1/2;
+    margin-bottom: 20px;
+    margin-right: 20px;
   }
 
 .box2 {
+  background-color: #dbe7f4bb;
     padding-left: 1%;
     grid-row: 4/5;
     grid-column: 1/2;
     justify-content: left;  
+    margin-right: 20px;
+    margin-bottom: 10px;
   
   }
 
