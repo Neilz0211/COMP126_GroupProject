@@ -80,7 +80,7 @@ header {
 
 
 .box1 {
- background-image: url(../img/books.png);
+ background-image: url(../img/teaching.jpeg);
   grid-row: 3/4;
   grid-column: 1/2;   
   background-repeat: no-repeat;

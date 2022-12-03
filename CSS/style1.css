@@ -51,7 +51,7 @@
 
 .grid-column-layout {
     display: grid;
-    grid-template-rows: 2fr 2fr 4fr 3fr 2fr 1fr;
+    grid-template-rows: 2fr 2fr 4fr 3fr 1fr;
     height: 100vh;
     grid-gap: 20px;
   }
@@ -98,7 +98,7 @@
     justify-content: center;
     align-items: center;
     color:black;
-    margin-bottom: 30px;
+;
   }
 
 
