@@ -165,7 +165,7 @@ h2{font-family: 'Roboto', sans-serif;
 
   input:focus,
   textarea:focus {
-    box-shadow: 0 0 0 5px rgba(247, 247, 145, 0.668);
+    box-shadow: 0 0 0 2px #3186d695;
   }
   
   label:required {
