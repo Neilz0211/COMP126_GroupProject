@@ -70,6 +70,7 @@ header {
 }
 
 .title {
+  margin-left: 20px;
   font-size: 12px;
   grid-row: 2/3;
   display: flex;    
@@ -173,14 +174,9 @@ footer {
 
 .text{display: flex;
   justify-content: left;
-        padding-left: 1%;}
+  padding-left: 1%;}
 
 h1{font-family: 'Donegal One';
   font-size: 30px}
 
-
-
-h2{font-family: 'Bad Script';
-  font-style: italic;
-}
-.p3{ font-family:"Times New Roman", Times; font-size: 22px; font-style: normal; font-variant: normal;font-weight: lighter; }
+h3{ font-family:"Times New Roman", Times; font-size: 22px; font-style: normal; font-variant: normal;font-weight: lighter; }
